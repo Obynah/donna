@@ -41,7 +41,7 @@ html {
 */
 
 body {
-  margin: 0; /* 1 */
+  margin: auto
   line-height: inherit; /* 2 */
 }
 
@@ -107,7 +107,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-family: sans-serif
   font-size: 1em; /* 2 */
 }
 
@@ -116,7 +116,7 @@ Add the correct font size in all browsers.
 */
 
 small {
-  font-size: 80%;
+  font-size: 150%;
 }
 
 /*
@@ -126,7 +126,7 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 sub,
 sup {
   font-size: 75%;
-  line-height: 0;
+  line-height: 1.5;
   position: relative;
   vertical-align: baseline;
 }
